@@ -2,32 +2,44 @@ name: CSA Canonical Integrity Check
 
 on:
   pull_request:
-    branches:
-      - main
+    branches: [main]
   workflow_dispatch:
+
+permissions:
+  contents: read
 
 jobs:
   canonical-integrity:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repository
-        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
+        uses: actions/checkout@<PINNED_SHA_HERE>
 
       - name: Verify required governance files exist
         run: |
-          set -e
-          for file in README.md GOVERNANCE.md LICENSE.md CITATION.cff; do
-            if [ ! -f "$file" ]; then
-              echo "Missing required file: $file"
-              exit 1
-            fi
-          done
+          set -euo pipefail
+          test -f README.md
+          test -f GOVERNANCE.md
+          test -f LICENSE.md
+          test -f CITATION.cff
+          echo "Required governance files present."
 
-      - name: Verify Zenodo DOI is referenced in README
+      - name: Verify README contains Zenodo DOI
+        env:
+          DOI: "https://doi.org/10.5281/zenodo.18058175"
         run: |
-          grep -q "10.5281/zenodo." README.md || \
-          (echo "Zenodo DOI not found in README.md" && exit 1)
+          set -euo pipefail
+          grep -F "${DOI}" README.md >/dev/null
+          echo "Zenodo DOI found in README."
 
-      - name: Canonical integrity check passed
-        run: echo "CSA canonical integrity check passed."
+      - name: Verify release tag format (vX.Y or vX.Y.Z)
+        run: |
+          set -euo pipefail
+          # This only enforces format if a tag is present in the ref context
+          REF="${GITHUB_REF_NAME:-}"
+          if [[ "$REF" == v* ]]; then
+            echo "$REF" | grep -E '^v[0-9]+\.[0-9]+(\.[0-9]+)?$' >/dev/null
+            echo "Tag format OK: $REF"
+          else
+            echo "No tag ref detected; skipping tag format check."
+          fi
