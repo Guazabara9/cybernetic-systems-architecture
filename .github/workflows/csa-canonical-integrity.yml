@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
-        uses: actions/checkout@<PINNED_SHA_HERE>
+        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11
 
       - name: Verify required governance files exist
         run: |
