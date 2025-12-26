@@ -1,46 +1,29 @@
-name: CSA Canonical Integrity Check
+- name: Verify canonical governance files exist
+  run: |
+    set -e
 
-on:
-  pull_request:
-    branches:
-      - main
-  workflow_dispatch:
+    REQUIRED_FILES=(
+      "README.md"
+      "GOVERNANCE.md"
+      "LICENSE.md"
+      "CITATION.cff"
+    )
 
-jobs:
-  canonical-integrity:
-    runs-on: ubuntu-latest
+    for file in "${REQUIRED_FILES[@]}"; do
+      if [ ! -f "$file" ]; then
+        echo "Missing required file: $file"
+        exit 1
+      fi
+    done
 
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+    echo "All required canonical files are present."
 
-      - name: Verify canonical governance files exist
-        run: |
-          set -e
+- name: Verify DOI is referenced in README
+  run: |
+    DOI="10.5281/zenodo.18058175"
+    if ! grep -q "$DOI" README.md; then
+      echo "DOI not found in README.md"
+      exit 1
+    fi
 
-          REQUIRED_FILES=(
-            "README.md"
-            "GOVERNANCE.md"
-            "LICENSE.md"
-            "CITATION.cff"
-          )
-
-          for file in "${REQUIRED_FILES[@]}"; do
-            if [ ! -f "$file" ]; then
-              echo "Missing required file: $file"
-              exit 1
-            fi
-          done
-
-          echo "All required canonical files are present."
-
-      - name: Verify DOI is referenced in README
-        run: |
-          set -e
-          DOI="10.5281/zenodo.18058175"
-          if ! grep -q "$DOI" README.md; then
-            echo "DOI not found in README.md"
-            exit 1
-          fi
-
-          echo "DOI reference verified."
+    echo "DOI reference verified."
