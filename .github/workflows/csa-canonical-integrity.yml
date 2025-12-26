@@ -5,6 +5,7 @@ on:
     branches:
       - main
   workflow_dispatch:
+
 jobs:
   canonical-integrity:
     runs-on: ubuntu-latest
@@ -13,6 +14,33 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Verify canonical documents are unchanged
+      - name: Verify canonical governance files exist
         run: |
-          echo "Canonical integrity check passed."
+          set -e
+
+          REQUIRED_FILES=(
+            "README.md"
+            "GOVERNANCE.md"
+            "LICENSE.md"
+            "CITATION.cff"
+          )
+
+          for file in "${REQUIRED_FILES[@]}"; do
+            if [ ! -f "$file" ]; then
+              echo "Missing required file: $file"
+              exit 1
+            fi
+          done
+
+          echo "All required canonical files are present."
+
+      - name: Verify DOI is referenced in README
+        run: |
+          set -e
+          DOI="10.5281/zenodo.18058175"
+          if ! grep -q "$DOI" README.md; then
+            echo "DOI not found in README.md"
+            exit 1
+          fi
+
+          echo "DOI reference verified."
