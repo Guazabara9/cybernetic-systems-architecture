@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use or reference Cybernetic Systems Architecture (CSA), please cite the canonical Zenodo record."
+title: "Cybernetic Systems Architecture (CSA): Canonical Foundations v1.0"
+authors:
+  - family-names: Luciano Perez
+    given-names: Stephanie
+doi: 10.5281/zenodo.18058175
+version: 1.0
+date-released: 2025-12-26
+repository-code: https://github.com/Guazabara9/cybernetic-systems-architecture
+license: CC-BY-NC-ND-4.0
