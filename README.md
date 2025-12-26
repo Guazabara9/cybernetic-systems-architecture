@@ -5,11 +5,12 @@ Cybernetic Systems Architecture (CSA) is a discipline concerned with the design,
 A Cybernetic Systems Architect is a practitioner of Cybernetic Systems Architecture who applies its frameworks, methods, and principles to real-world systems.
 
 ## Canon (v1.0)
-The foundational CSA canon is published as a DOI-archived record:
 
-- **DOI:** (to be added after Zenodo publication)
+The foundational CSA canon is archived as a DOI-registered scholarly record:
 
-This repository mirrors the canon and provides a versioned evolution trail under the CSA Versioning & Changelog Standard.
+DOI: https://doi.org/10.5281/zenodo.18058175
+
+This repository governs canonical integrity, versioned evolution, and future releases under the CSA Versioning & Changelog Standard.
 
 ## Repository structure
 - `/canon/` — released canonical documents (slow-changing)
