@@ -5,6 +5,18 @@ A **Cybernetic Systems Architect** is a practitioner of Cybernetic Systems Archi
 
 For common questions about scope, authority, licensing, and terminology, see **FAQ.md** (non-canonical).
 
+## If you’re new here
+Cybernetic Systems Architecture (CSA) is a conceptual discipline and governance framework—not a product, certification, software system, or professional license.
+
+This repository serves as a structured reference point for:
+- A defined CSA canon, established through versioned, DOI-archived releases on Zenodo
+- Supporting explanations, diagrams, and non-canonical materials hosted on GitHub
+- Clear separation between canonical authority and exploratory or illustrative work
+
+If you are looking for implementation examples, certifications, or operational systems, this repository is not intended for that purpose.
+
+For common questions about scope, authority, licensing, and terminology, see **FAQ.md** (non-canonical).
+
 ### Name and Acronym Disambiguation
 The acronym **“CSA”** in this repository refers exclusively within this repository to **Cybernetic Systems Architecture**, a discipline canon **defined and curated by Stephanie Luciano Perez** and established through versioned, DOI-archived releases on Zenodo.
 
