@@ -13,6 +13,10 @@ DOI: https://doi.org/10.5281/zenodo.18058175
 The Zenodo record is the authoritative canonical archive.
 This repository governs canonical integrity, versioned evolution, and future releases under the CSA Versioning & Changelog Standard.
 
+Only materials explicitly designated as canonical and archived via Zenodo DOI constitute the CSA canon. 
+
+All other repository contents are non-canonical and may change without constituting a canonical revision.
+
 ## Repository structure
 - `/canon/` — released canonical documents (mirrors of DOI-archived canon)
 - `/methods/` — implementation techniques and templates (fast-changing)
