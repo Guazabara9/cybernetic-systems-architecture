@@ -1,13 +1,11 @@
 # CSA Roadmap (Internal)
 
-This document is **non-canonical** and **non-binding**.
-It does not define standards, requirements, guarantees, or obligations.
+This document is **non-canonical**, **non-binding**, and **non-citable**.
 
-Its purpose is to record internal intent and possible future directions
-without affecting the CSA canon or its DOI-archived releases.
+It does not define standards, requirements, guarantees, or commitments.
+It records internal intent and exploratory directions only.
 
-In the event of any conflict, **canonical CSA documents and DOI-archived
-releases take absolute precedence over this roadmap**.
+This document has no authority over the CSA canon or its DOI-archived releases.
 
 ---
 
