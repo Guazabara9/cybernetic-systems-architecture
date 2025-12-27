@@ -24,13 +24,13 @@ jobs:
           test -f CITATION.cff
           echo "Required governance files present."
 
-      - name: Verify README contains Zenodo DOI
+      - name: Verify README contains canonical Zenodo DOI
         env:
           DOI: "https://doi.org/10.5281/zenodo.18058175"
         run: |
           set -euo pipefail
-          grep -F "${DOI}" README.md >/dev/null
-          echo "Zenodo DOI found in README."
+          grep -F "10.5281/zenodo.18058175" README.md >/dev/null
+          echo "Canonical Zenodo DOI found in README."
 
       - name: Verify release tag format (vX.Y or vX.Y.Z)
         run: |
