@@ -1,12 +1,14 @@
-Copyright © 2025 Stephanie Luciano Perez
-
+Copyright © 2025 Stephanie Luciano Perez  
 All rights reserved.
 
-This repository contains canonical and governance materials for the
-Cybernetic Systems Architecture (CSA) discipline.
+This repository contains canonical, governance, and stewardship materials for the Cybernetic Systems Architecture (CSA) discipline.
 
-Canonical documents are licensed individually under the terms specified
-in their respective files and Zenodo records.
+Unless explicitly stated otherwise:
+- No license is granted to use, reproduce, modify, distribute, or create derivative works from the contents of this repository.
+- No rights are granted by implication, estoppel, or otherwise.
 
-No license is granted to reproduce, modify, or distribute this repository’s
-contents except as explicitly stated.
+Canonical documents are licensed, if at all, **only** under the terms specified in their respective files and corresponding Zenodo DOI records. Where no license is specified, all rights are reserved.
+
+Nothing in this repository constitutes legal, technical, safety, or professional advice. Use of any concepts or materials is at the user’s sole risk and responsibility.
+
+Unauthorized use may violate applicable intellectual property laws.
