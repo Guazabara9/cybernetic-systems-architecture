@@ -10,12 +10,16 @@ The foundational CSA canon is archived as a DOI-registered scholarly record:
 
 DOI: https://doi.org/10.5281/zenodo.18058175
 
+The Zenodo record is the authoritative canonical archive.
 This repository governs canonical integrity, versioned evolution, and future releases under the CSA Versioning & Changelog Standard.
 
 ## Repository structure
-- `/canon/` — released canonical documents (slow-changing)
+- `/canon/` — released canonical documents (mirrors of DOI-archived canon)
 - `/methods/` — implementation techniques and templates (fast-changing)
 - `/case-studies/` — applied work and examples (fast-changing)
 
 ## Stewardship
-CSA evolves as a disciplined, versioned standard. Canonical changes are rare and deliberate; methods and applications may evolve rapidly. See the CSA Versioning & Changelog Standard for governance of evolution.
+CSA evolves as a disciplined, versioned standard. Canonical changes are rare and deliberate; methods and applications may evolve rapidly.
+
+Canonical changes require explicit version increments and archival publication.
+See the CSA Versioning & Changelog Standard for governance of evolution.
