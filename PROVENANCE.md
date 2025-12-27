@@ -3,6 +3,8 @@
 This document describes the provenance and authority model for
 Cybernetic Systems Architecture (CSA).
 
+Forks, mirrors, or derivative repositories do not constitute canonical authority unless explicitly designated by the rights holder.
+
 ## Canonical authority
 The authoritative CSA canon is defined exclusively by
 DOI-archived releases on Zenodo.
