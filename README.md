@@ -3,6 +3,8 @@
 
 A **Cybernetic Systems Architect** is a practitioner of Cybernetic Systems Architecture who applies its frameworks, methods, and principles to real-world systems.
 
+For common questions about scope, authority, licensing, and terminology, see **FAQ.md** (non-canonical).
+
 ### Name and Acronym Disambiguation
 The acronym **“CSA”** in this repository refers exclusively within this repository to **Cybernetic Systems Architecture**, a discipline canon **defined and curated by Stephanie Luciano Perez** and established through versioned, DOI-archived releases on Zenodo.
 
