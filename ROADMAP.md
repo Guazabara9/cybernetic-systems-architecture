@@ -27,3 +27,4 @@ only through the CSA governance and versioning process**.
 - Extended governance patterns  
 - Case study references  
 - Applied implementation guidance  
+
