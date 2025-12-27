@@ -2,10 +2,12 @@
 
 This document is **non-canonical**, **non-binding**, and **non-citable**.
 
-It does not define standards, requirements, guarantees, or commitments.
+It does not define standards, requirements, guarantees, commitments, or future obligations.
 It records internal intent and exploratory directions only.
 
-This document has no authority over the CSA canon or its DOI-archived releases.
+This document has **no authority** over the CSA canon or any DOI-archived CSA releases.
+
+In the event of any conflict, DOI-archived canonical records govern.
 
 ---
 
