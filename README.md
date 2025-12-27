@@ -12,17 +12,17 @@ Canonical Authority
 The authoritative CSA canon consists only of materials explicitly archived as DOI-registered releases on Zenodo.
 These DOI records establish authorship, version immutability, citation authority, and canonical precedence.
 
-Licensing
+### Licensing
 Each canonical document declares its own license within the document itself and in its corresponding Zenodo record
 (e.g., CC BY-NC-ND 4.0 for CSA v1.0 canonical PDFs).
 Those per-document licenses govern. 
 The repository-level license applies only to files that do not explicitly declare a license of their own.
 
-GitHub Repository License
+### GitHub Repository License
 The GitHub repository as a whole is all rights reserved, except where an individual file explicitly declares a license.
 GitHub content serves as a mirror, integrity layer, and working surface, not a source of canonical authority.
 
-Conflict Resolution
+### Conflict Resolution
 In the event of any discrepancy or ambiguity, Zenodo DOI-archived records supersede all GitHub content.
 
 This hierarchy exists to preserve canonical clarity, prevent misattribution, and ensure long-term scholarly integrity.
