@@ -1,21 +1,21 @@
 # Cybernetic Systems Architecture (CSA)
+**Cybernetic Systems Architecture (CSA)** is a discipline concerned with the design, governance, and evolution of complex adaptive systems using cybernetic principles such as feedback, control, observability, robustness, and enforced constraints.
 
-Cybernetic Systems Architecture (CSA) is a discipline concerned with the design, governance, and evolution of complex adaptive systems using cybernetic principles such as feedback, control, observability, robustness, and enforced constraints.
-
-A Cybernetic Systems Architect is a practitioner of Cybernetic Systems Architecture who applies its frameworks, methods, and principles to real-world systems.
+A **Cybernetic Systems Architect** is a practitioner of Cybernetic Systems Architecture who applies its frameworks, methods, and principles to real-world systems.
 
 ## Canonical Authority, Licensing, and Precedence
-
 The Cybernetic Systems Architecture (CSA) discipline is governed by a strict hierarchy of authority and licensing:
 
-Canonical Authority
+### Canonical Authority
 The authoritative CSA canon consists only of materials explicitly archived as DOI-registered releases on Zenodo.
 These DOI records establish authorship, version immutability, citation authority, and canonical precedence.
 
 ### Licensing
-Each canonical document declares its own license within the document itself and in its corresponding Zenodo record
-(e.g., CC BY-NC-ND 4.0 for CSA v1.0 canonical PDFs).
-Those per-document licenses govern. 
+Each canonical document specifies the copyright license governing that document’s text and distribution within the document itself and in its corresponding Zenodo record (e.g., CC BY-NC-ND 4.0 for CSA v1.0 canonical PDFs).
+
+These licenses apply only to the documents as published works.  
+They do not grant rights to the CSA name, acronym, discipline, or authority.
+
 The repository-level license applies only to files that do not explicitly declare a license of their own.
 
 ### GitHub Repository License
@@ -24,11 +24,9 @@ GitHub content serves as a mirror, integrity layer, and working surface, not a s
 
 ### Conflict Resolution
 In the event of any discrepancy or ambiguity, Zenodo DOI-archived records supersede all GitHub content.
-
 This hierarchy exists to preserve canonical clarity, prevent misattribution, and ensure long-term scholarly integrity.
 
 ## Canon (v1.0)
-
 The foundational CSA canon is archived as a DOI-registered scholarly record:
 
 DOI: https://doi.org/10.5281/zenodo.18058175
@@ -37,7 +35,6 @@ The Zenodo record is the authoritative canonical archive.
 This repository governs canonical integrity, versioned evolution, and future releases under the CSA Versioning & Changelog Standard.
 
 Only materials explicitly designated as canonical and archived via Zenodo DOI constitute the CSA canon. 
-
 All other repository contents are non-canonical and may change without constituting a canonical revision.
 
 ## Repository structure
