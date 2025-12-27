@@ -19,3 +19,5 @@ Stewardship governs:
 - archival continuity
 
 It does not govern third-party interpretations or implementations.
+
+Forks, mirrors, or derivative repositories do not constitute canonical authority unless explicitly designated by the rights holder.
