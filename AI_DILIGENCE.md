@@ -1,16 +1,33 @@
-# AI Diligence and Authorship Statement (Non-Canonical)
+# AI Diligence Statement (Non-canonical)
 
-This work was authored and curated by a human author.
+This document is **non-canonical** and **non-binding**.
+It is provided for transparency and risk reduction.
 
-AI tools may have been used in limited, assistive capacities such as:
-- Editing suggestions
-- Structural refinement
-- Language clarity checks
+## Human authorship and responsibility
+The CSA canon and governance materials are authored and curated by the rights holder.
+Any use of tools (including AI) does not transfer authorship, ownership, or responsibility away from the rights holder.
 
-AI tools did **not** originate, own, or independently determine the core concepts, structure, or authoritative content of the CSA canon.
+## Tooling disclosure (general)
+Drafting and editorial tools may be used to assist with:
+- language refinement,
+- structure,
+- formatting,
+- consistency checks.
 
-Use of AI tools does not negate human authorship, intellectual ownership, or custodianship.
+No AI system is designated as a co-author, originator, rights holder, or custodian of CSA materials.
 
-AI-generated content detection tools are inherently probabilistic, unreliable, and insufficient to establish authorship or provenance. Authorship is established through documented creation, version history, and DOI-archived records.
+Tools are not treated as authoritative sources. All final decisions and acceptance of content rest with the rights holder.
 
-This statement is provided for transparency only and does not grant rights or permissions.
+## No guarantee of originality detection
+So-called “AI detectors” are unreliable and may produce false positives or false negatives.
+Detector outputs do not establish authorship, provenance, or infringement status.
+
+## No warranties; no reliance
+The materials are provided for scholarly and conceptual purposes only and are not professional advice.
+No warranties are provided regarding correctness, completeness, safety, or suitability for any purpose.
+
+## Canonical authority and provenance
+The authoritative canonical CSA v1.0 record is archived on Zenodo:
+https://doi.org/10.5281/zenodo.18058175
+
+GitHub tags/releases and Zenodo records are the intended provenance trail for canonical versions.
